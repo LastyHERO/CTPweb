@@ -1,0 +1,30 @@
+h1 {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: azure;
+  }
+  
+  #movieTable {
+    margin-top: 30px;
+  }
+  
+  table {
+    width: 50%;
+    border-collapse: collapse;
+    margin: 0 auto;
+  }
+  
+  th, td {
+    border: 2px solid #836666;
+    padding: 8px;
+    text-align: center;
+    background-color: #ffffff;
+
+  }
+  

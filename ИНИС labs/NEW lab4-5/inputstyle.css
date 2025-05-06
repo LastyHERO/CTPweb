@@ -1,0 +1,49 @@
+html {
+  touch-action: none;
+
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+body {
+  margin: 0;
+  touch-action: none;
+}
+
+#workspace {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  background-color: rgb(226, 226, 226);
+  overflow: hidden;
+}
+
+.target {
+  position: absolute;
+  border: 1px solid black;
+  background-color: red;
+  box-sizing: border-box;
+}
+.resize-handle {
+  width: 10px;
+  height: 10px;
+  background-color: green;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  cursor: se-resize;
+}
+
+.dragging {
+  opacity: 0.8;
+}
+
+.double-drag {
+  box-shadow: 0 0 10px blue;
+}
+
+.touch-drag {
+  box-shadow: 0 0 10px green;
+}
